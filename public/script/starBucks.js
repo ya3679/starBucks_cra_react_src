@@ -476,6 +476,11 @@
                     goTop.stop().fadeOut(1000);
                 }
             });
+            $('.go-top-btn').on({
+              click: function(){
+                $('html, body').stop().animate({scroiiTop: 0}, 600);
+              }
+            });
         }
         quickMenu(){
             let quicTop1 = ($(window).height() - 96)/2;

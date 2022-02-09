@@ -64,12 +64,12 @@ class FooterComponent extends Component {
                         </div>    
                         <div className="middle">
                             <div className="wrap">
-                                <span><a href="#" title="footer_award23"><img src="./images/footer_award23.jpg" alt=""/></a></span>
-                                <span><a href="#" title="footer_award24"><img src="./images/footer_award24.jpg" alt=""/></a></span>
-                                <span><a href="#" title="footer_award25"><img src="./images/footer_award25.jpg" alt=""/></a></span>
-                                <span><a href="#" title="footer_award26"><img src="./images/footer_award26.jpg" alt=""/></a></span>
-                                <span><a href="#" title="footer_award27"><img src="./images/footer_award27.jpg" alt=""/></a></span>
-                                <span><a href="#" title="footer_award28"><img src="./images/footer_award28.jpg" alt=""/></a></span>
+                                <span><a href="#" title="footer_award23"><img src={process.env.PUBLIC_URL + "/images/footer_award23.jpg"} alt=""/></a></span>
+                                <span><a href="#" title="footer_award24"><img src={process.env.PUBLIC_URL + "/images/footer_award24.jpg"} alt=""/></a></span>
+                                <span><a href="#" title="footer_award25"><img src={process.env.PUBLIC_URL + "/images/footer_award25.jpg"} alt=""/></a></span>
+                                <span><a href="#" title="footer_award26"><img src={process.env.PUBLIC_URL + "/images/footer_award26.jpg"} alt=""/></a></span>
+                                <span><a href="#" title="footer_award27"><img src={process.env.PUBLIC_URL + "/images/footer_award27.jpg"} alt=""/></a></span>
+                                <span><a href="#" title="footer_award28"><img src={process.env.PUBLIC_URL + "/images/footer_award28.jpg"} alt=""/></a></span>
                             </div>
                         </div>    
                         <div className="bottom">

@@ -6,7 +6,7 @@ class MobileNavComponent extends Component {
             <>
                 <nav id="mobileNav" className="">
                     <div className="mobile-container">
-                        <span className="mobile-close"><a href="#"><img src="./images/btn_gnb_close.png" alt=""/></a></span>
+                        <span className="mobile-close"><a href="#"><img src={ process.env.PUBLIC_URL + "/images/btn_gnb_close.png"} alt=""/></a></span>
                         <ul>
                             <li>
                                 <form name="searchform" method="post" action="abc.php">
